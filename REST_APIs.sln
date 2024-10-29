@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RESTClient", "RESTClient\RESTClient.csproj", "{94F40685-804A-4FB4-A288-F3F848F6A34A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RESTClient.NewtonsoftSerializer", "RESTClient.NewtonsoftSerializer\RESTClient.NewtonsoftSerializer.csproj", "{527CE0A3-2C5C-4221-A8FD-BDEBEEE0645C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{94F40685-804A-4FB4-A288-F3F848F6A34A} = {94F40685-804A-4FB4-A288-F3F848F6A34A}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RESTClient.SystemTextJsonSerializer", "RESTClient.SystemTextJsonSerializer\RESTClient.SystemTextJsonSerializer.csproj", "{BE640477-216F-412F-95C6-176C49D594D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94F40685-804A-4FB4-A288-F3F848F6A34A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94F40685-804A-4FB4-A288-F3F848F6A34A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94F40685-804A-4FB4-A288-F3F848F6A34A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94F40685-804A-4FB4-A288-F3F848F6A34A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{527CE0A3-2C5C-4221-A8FD-BDEBEEE0645C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{527CE0A3-2C5C-4221-A8FD-BDEBEEE0645C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{527CE0A3-2C5C-4221-A8FD-BDEBEEE0645C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{527CE0A3-2C5C-4221-A8FD-BDEBEEE0645C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE640477-216F-412F-95C6-176C49D594D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE640477-216F-412F-95C6-176C49D594D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE640477-216F-412F-95C6-176C49D594D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE640477-216F-412F-95C6-176C49D594D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A331B1D-F51E-4AED-B740-34E660D56890}
+	EndGlobalSection
+EndGlobal
